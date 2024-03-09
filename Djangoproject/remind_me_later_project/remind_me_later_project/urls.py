@@ -19,6 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('reminders/', include('reminders.urls')),
-    path('user/', include('user.urls')), # Include the URLs for the reminders app
+    path('reminders/', include('reminders.urls'))
 ]
